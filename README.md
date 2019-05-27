@@ -1,3 +1,3 @@
-# ocp-demos
+# openshift-demos
 
-Odds and sods for OpenShift.
+A repo of examples and demos for OpenShift.
