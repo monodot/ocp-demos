@@ -1,0 +1,17 @@
+pipeline {
+
+    agent {
+        label "master"
+    }
+
+    environment {
+    }
+
+    stages {
+        stage("Stage 1") {
+            steps {
+	            sh 'printenv'
+	        }
+        }
+    }
+}
